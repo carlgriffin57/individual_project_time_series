@@ -14,12 +14,6 @@ from statsmodels.tsa.api import Holt
 import warnings
 warnings.filterwarnings("ignore")
 
-def make_predictions():
-    yhat_df = pd.DataFrame({'sale_amount': [amount],
-                            'item_price': [price],
-                           }, index = train.index)
-    return yhat_df
-
 def evaluate(validate, yhat_df, target_var):
     '''
     This function will take the actual values of the target_var from validate, 
