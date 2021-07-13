@@ -17,7 +17,10 @@ To be able to make predictions of future GMSL
 | GMSL      | Global Mean Sea Level in mm converted to inches | Float64   |
 
 
-### PROJECT PLANNIG
+### PROJECT PLANNING
+
+- Project was planned out using Trello: https://trello.com/b/WaErFBda/individual-project
+
 - Data is acquired through a .zip file that was downloaded from https://www.kaggle.com/somesh24/sea-level-change
 
 - Data was clean from the source.  No nulls, missing data, etc.
